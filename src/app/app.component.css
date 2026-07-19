@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  border-bottom: 1px solid #eee;
+  font-family: Arial, sans-serif;
+}
+.brand { font-weight: bold; font-size: 18px; }
+.links { display: flex; gap: 18px; }
+.links a { text-decoration: none; color: #444; padding: 6px 4px; }
+.links a.active { color: #1976d2; font-weight: 600; border-bottom: 2px solid #1976d2; }

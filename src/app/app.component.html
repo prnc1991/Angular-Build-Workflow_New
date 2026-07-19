@@ -1,0 +1,10 @@
+<nav class="navbar">
+  <span class="brand">Prince Kumar</span>
+  <div class="links">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Dashboard</a>
+    <a routerLink="/todos" routerLinkActive="active">Todos</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
